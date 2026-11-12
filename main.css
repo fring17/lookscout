@@ -359,3 +359,75 @@ body {
     padding-bottom: 40px;
 }
 
+.check {
+    padding-bottom: 64px;
+}
+
+.check__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -1%;
+    color: #272D37;
+}
+
+.check__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    padding: 16px 0 24px;
+}
+
+.haed__span {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 26px;
+    margin-bottom: 40px;
+}
+
+.span__main {
+    color: #5F6D7E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    position: relative;
+}
+
+.span__main::before {
+    position: absolute;
+    content: url(img/check.svg);
+    left: -26px;
+}
+
+.check__img {
+    cursor: pointer;
+}
+
+.check__btn {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #fff;
+    padding: 12px 44px 12px 18px;
+    background: #437EF7;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+}
+
+.check__btn::before {
+    position: absolute;
+    content: url(img/arrow__right.svg);
+    right: 20px;
+}
