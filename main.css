@@ -431,3 +431,51 @@ body {
     content: url(img/arrow__right.svg);
     right: 20px;
 }
+
+.blog {
+    padding-top: 64px;
+}
+
+.blog__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    padding-bottom: 64px;
+}
+
+.blog__boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box__title {
+    max-width: 320px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -1%;
+    color: #272D37;
+}
+
+.box__txt {
+    max-width: 320px;
+    width: 100%;
+    color: #5F6D7E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+}
+
+.blog__img {
+    border-radius: 16px;
+}
+
+.main__span {
+    display: flex;
+    padding-left: 44px;
+    gap: 28px;
+}
